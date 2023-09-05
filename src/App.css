@@ -1,0 +1,239 @@
+:root {
+  /* Font Family */
+  --preset-theme-font: var(--font-headings, "Open Sans", sans-serif);
+
+  /* Font Size */
+  --preset-theme-font-size-base: 16px;
+  --preset-theme-font-size-md: 30px;
+
+  /* Line Height */
+  --preset-theme-font-line-height-normal: normal;
+
+  /* Weight */
+  --preset-theme-font-weight-light: 300;
+  --preset-theme-font-weight-normal: 400;
+  --preset-theme-font-weight-medium: 500;
+  --preset-theme-font-weight-semibold: 600;
+  --preset-theme-font-weight-bold: 700;
+  --preset-theme-font-weight-extra-bold: 800;
+
+  /* Text Decoration */
+  --preset-theme-line-solid: solid;
+  --preset-theme-text-decoration-none: none;
+  --preset-theme-text-decoration-underline: underline;
+  --preset-theme-cursor-link: pointer;
+  --preset-theme-cursor-default: default;
+
+  /* Colors */
+  --preset-theme-transparent: transparent;
+  --preset-theme-primary: #184ca1;
+  --preset-theme-blue: #17519f;
+  --preset-theme-dark-blue: #11459a;
+  --preset-theme-light-blue: #9abdf8;
+  --preset-theme-prime: 3, 167, 254;
+  --preset-theme-primary-opa: rgba(var(--preset-theme-prime), 0.8);
+  --preset-theme-blu: 26, 80, 158;
+  --preset-theme-blu-opa: rgba(var(--preset-theme-blu), 0.5);
+  --preset-theme-red: #d71f27;
+  --preset-theme-vivid-red: #e11b24;
+  --preset-theme-reds: 223, 72, 78;
+  --preset-theme-light-red-opa: rgba(var(--preset-theme-reds), 0.8);
+  --preset-theme-white: #ffffff;
+  --preset-theme-gray: #54555d;
+  --preset-theme-dark-gray: #28292a;
+  --preset-theme-light-gray: #c3c3c4;
+  --preset-theme-black: #000000;
+  --preset-theme-black-v1: #030614;
+  --preset-theme-yellow: #fde000;
+  --preset-theme-vivid-yellow: #fcea5b;
+  --preset-theme-dark-yellow: #d7be00;
+  --preset-theme-light-yellow: #fff3cd;
+  --preset-theme-yellows: 215, 190, 0;
+  --preset-theme-yellow-opa: rgba(var(--preset-theme-yellows), 0.5);
+  --preset-theme-green: #0fb81f;
+  --preset-theme-teal: #069a82;
+  --preset-theme-teals: 6, 154, 130;
+  --preset-theme-teal-opa: rgba(var(--preset-theme-teals), 0.6);
+
+  /* Border */
+  --preset-theme-border-none: none;
+
+  /* Spacing */
+  --preset-theme-spacing-unit-auto: auto;
+  --preset-theme-spacing-unit-none: 0px;
+  --preset-theme-spacing-unit-base: 20px;
+  --preset-theme-spacing-unit-xss: 1px;
+  --preset-theme-spacing-unit-xs: 5px;
+  --preset-theme-spacing-unit-sm: 10px;
+  --preset-theme-spacing-unit-md: 30px;
+  --preset-theme-spacing-unit-lg: 40px;
+  --preset-theme-spacing-unit-xl: 50px;
+  --preset-theme-spacing-unit-xxl: 60px;
+  --preset-theme-spacing-unit-xxxl: 65px;
+  --preset-theme-spacing-unit-max: 80px;
+
+  /* Padding */
+  --preset-theme-padding-none: 0px;
+  --preset-theme-padding-base: 20px;
+  --preset-theme-padding-xss: 2px;
+  --preset-theme-padding-xs: 5px;
+  --preset-theme-padding-sm: 10px;
+  --preset-theme-padding-md: 30px;
+  --preset-theme-padding-lg: 40px;
+  --preset-theme-padding-xl: 50px;
+  --preset-theme-padding-xxl: 60px;
+  --preset-theme-padding-max: 90px;
+
+  /* Margin */
+  --preset-theme-margin-none: 0px;
+  --preset-theme-margin-auto: auto;
+  --preset-theme-margin-base: 20px;
+  --preset-theme-margin-xss: 2px;
+  --preset-theme-margin-xs: 6px;
+  --preset-theme-margin-sm: 10px;
+  --preset-theme-margin-md: 30px;
+  --preset-theme-margin-lg: 40px;
+  --preset-theme-margin-xl: 50px;
+  --preset-theme-margin-xxl: 60px;
+  --preset-theme-margin-max: 90px;
+
+  /* Alignment */
+  --preset-theme-align-left: left;
+  --preset-theme-align-right: right;
+  --preset-theme-align-bottom: bottom;
+  --preset-theme-align-center: center;
+  --preset-theme-align-end: flex-end;
+  --preset-theme-space-between: space-between;
+
+  /* Display */
+  --preset-theme-display-inline: inline;
+  --preset-theme-display-inline-block: inline-block;
+  --preset-theme-display-block: block;
+  --preset-theme-display-flex: flex;
+  --preset-theme-display-grid: grid;
+  --preset-theme-display-table: table;
+  --preset-theme-display-inherit: inherit;
+  --preset-theme-display-revert: revert;
+  --preset-theme-display-list-item: list-item;
+  --preset-theme-display-table-cell: table-cell;
+  --preset-theme-display-none: none;
+
+  /* Display Direction */
+  --preset-theme-horz-direction: row;
+  --preset-theme-vert-direction: column;
+
+  /* Border Radius */
+  --preset-theme-radius-none: 0px;
+  --preset-theme-radius-base: 20px;
+  --preset-theme-radius-xxs: 2px;
+  --preset-theme-radius-xs: 5px;
+  --preset-theme-radius-sm: 10px;
+  --preset-theme-radius-md: 30px;
+  --preset-theme-radius-xl: 40px;
+  --preset-theme-radius-lg: 50px;
+  --preset-theme-radius-xl: 60px;
+  --preset-theme-radius-xxl: 70px;
+  --preset-theme-radius-max: 80px;
+
+  /* Height */
+  --preset-theme-height-auto: auto;
+  --preset-theme-height-flex: 100%;
+  --preset-theme-height-full: 100vh;
+
+  /* Width */
+  --preset-theme-width-auto: auto;
+  --preset-theme-width-full: 100%;
+}
+
+* {
+  padding: var(--preset-theme-padding-none);
+  margin: var(--preset-theme-margin-none);
+  box-sizing: border-box;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  background-color: var(--preset-theme-gray);
+  font-family: var(--preset-theme-font);
+}
+
+.cal-container {
+  height: var(--preset-theme-height-full);
+  width: var(--preset-theme-width-full);
+  display: var(--preset-theme-display-flex);
+  justify-content: var(--preset-theme-align-center);
+  align-items: var(--preset-theme-align-center);
+  background: linear-gradient(140deg, var(--preset-theme-primary), var(--preset-theme-dark-blue));
+}
+.cal-wrapper {
+  padding: var(--preset-theme-padding-base);
+  border-radius: var(--preset-theme-radius-sm);
+  background-color: var(--preset-theme-white);
+  max-width: 350px;
+  width: var(--preset-theme-width-full);
+}
+.cal-wrapper form .cal-disp {
+  display: var(--preset-theme-display-flex);
+  justify-content: var(--preset-theme-align-end);
+  background: linear-gradient(0deg, var(--preset-theme-white), var(--preset-theme-white));
+  margin: var(--preset-theme-margin-xs) var(--preset-theme-margin-none) var(--preset-theme-margin-sm);
+  border-radius: var(--preset-theme-radius-sm);
+  overflow: hidden;
+}
+.cal-wrapper form .cal-disp input {
+  max-width: 310px;
+  width:var(--preset-theme-width-full);
+  text-align: var(--preset-theme-align-right);
+  flex: 1;
+  font-size: var(--preset-theme-font-size-md);
+  font-weight: var(--preset-theme-font-weight-extra-bold);
+  color: var(--preset-theme-white);
+  background: linear-gradient(0deg, var(--preset-theme-black-v1), var(--preset-theme-black-v1));
+  padding: var(--preset-theme-padding-md) var(--preset-theme-padding-xs);
+  border-radius: var(--preset-theme-radius-sm);
+  cursor: var(--preset-theme-cursor-default);
+}
+.cal-wrapper form .cal-actions {
+  display: var(--preset-theme-display-flex);
+  flex-direction: var(--preset-theme-horz-direction);
+  justify-content: var(--preset-theme-space-between);
+  align-items: var(--preset-theme-align-center);
+}
+.cal-wrapper form .cal-actions input[type=button] {
+  border: var(--preset-theme-border-none);
+  outline: 0;
+  width: var(--preset-theme-spacing-unit-xxxl);
+  height: var(--preset-theme-spacing-unit-xxl);
+  font-size: var(--preset-theme-font-size-base);
+  background: linear-gradient(0deg, var(--preset-theme-light-blue), var(--preset-theme-blu-opa));
+  margin: var(--preset-theme-margin-xs) var(--preset-theme-margin-none);
+  border-radius: var(--preset-theme-radius-sm);
+  color: var(--preset-theme-white);
+  font-weight: var(--preset-theme-font-weight-bold);
+  cursor: var(--preset-theme-cursor-link);
+}
+.cal-wrapper form .cal-actions input[type=button]:hover,
+.cal-wrapper form .cal-actions input[type=button]:active,
+.cal-wrapper form .cal-actions input[type=button]:focus {
+  background: linear-gradient(360deg, var(--preset-theme-blu-opa), var(--preset-theme-light-blue));
+}
+.cal-wrapper form .cal-actions input.fr[type=button] {
+  background: linear-gradient(0deg, var(--preset-theme-light-red-opa), var(--preset-theme-vivid-red));
+}
+.cal-wrapper form .cal-actions input.fr[type=button]:hover,
+.cal-wrapper form .cal-actions input.fr[type=button]:active,
+.cal-wrapper form .cal-actions input.fr[type=button]:focus {
+  background: linear-gradient(360deg, var(--preset-theme-vivid-red), var(--preset-theme-light-red-opa));
+}
+.cal-wrapper form .cal-actions input.rm[type=button] {
+  background: linear-gradient(0deg, var(--preset-theme-yellow-opa), var(--preset-theme-yellow));
+  color: var(--preset-theme-black-v1);
+}
+.cal-wrapper form .cal-actions input.rm[type=button]:hover,
+.cal-wrapper form .cal-actions input.rm[type=button]:active,
+.cal-wrapper form .cal-actions input.rm[type=button]:focus {
+  background: linear-gradient(360deg, var(--preset-theme-yellow), var(--preset-theme-yellow-opa));
+}
+.cal-wrapper form .cal-actions input.equal[type=button] {
+  width: 148px;
+}
